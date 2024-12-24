@@ -1,0 +1,126 @@
+/* Body setup */
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Heading */
+.head {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input text styling */
+.ip1,
+.ip2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+}
+
+/* Form container and input styling */
+.ipContainer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+/* Input fields styling */
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    outline: none;
+    margin: 5px 0;
+}
+
+/* Input field focus effect */
+input:focus {
+    border-color: #411557;
+}
+
+/* Submit button */
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #411557;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #6a3e77;
+}
+
+/* List item for subjects */
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.listItem span {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Increase/Decrease buttons styling */
+.add,
+.sub {
+    padding: 8px 16px;
+    background-color: #f44336; /* Red for decrease */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.add {
+    background-color: #4CAF50; /* Green for add */
+}
+
+.add:hover,
+.sub:hover {
+    background-color: #388E3C; /* Darker green for add button */
+}
+
+.sub:hover {
+    background-color: #d32f2f; /* Darker red for subtract button */
+}
+
+/* List item image */
+.listItem img {
+    height: 100%;
+    width: 20px;
+    object-fit: contain;
+}
